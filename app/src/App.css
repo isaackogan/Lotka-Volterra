@@ -1,0 +1,52 @@
+#root {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
+hr {
+    border-color: rgba(202, 224, 224, 0.71);
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2, h4 {
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+main {
+    margin-top: 25px;
+    display: flex;
+    column-gap: 30px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+#isoclines {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.chart-container {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.chart {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
