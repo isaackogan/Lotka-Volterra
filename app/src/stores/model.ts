@@ -23,7 +23,7 @@ export const Maxima: ModelParameters & TimeSeriesParameters = {
   a: 1.0,
   b: 1.0,
   m: 1.0,
-  steps: 250
+  steps: 500
 }
 
 export const Minima: ModelParameters & TimeSeriesParameters = {
@@ -86,9 +86,9 @@ export type ConstantParameters = {
 
 const url = new URL(window.location.href);
 
-const searchN = url.searchParams.get('N');
-const searchP = url.searchParams.get('P');
-const searchK = url.searchParams.get('K');
+const searchN = url.searchParams.get('N') && parseInt(url.searchParams.get('N')!);
+const searchP = url.searchParams.get('P') && parseInt(url.searchParams.get('P')!);
+const searchK = url.searchParams.get('K') && parseInt(url.searchParams.get('K')!);
 
 const DefaultConstants: ConstantParameters = {
   initialN: 40,

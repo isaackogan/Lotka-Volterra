@@ -15,11 +15,19 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #9bc5f6;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #7597be;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 20px;
+  margin-top: 25px;
 }
 
 body {

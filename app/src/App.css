@@ -11,7 +11,7 @@
 }
 
 hr {
-    border-color: rgba(202, 224, 224, 0.71);
+    border-color: rgba(135, 137, 140, 0.71);
 }
 
 h1 {
@@ -32,6 +32,7 @@ main {
     column-gap: 30px;
     row-gap: 30px;
     flex-wrap: wrap;
+    margin-bottom: 25px;
 }
 
 #isoclines {

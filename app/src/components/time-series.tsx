@@ -132,10 +132,10 @@ export const TimeSeries: FC<HTMLProps<HTMLDivElement>> = (props) => {
             <TimeSeriesParametersForm onValueChanged={() => setChanged()}/>
             <div>
               <h4 style={{marginBottom: "5px", marginTop: "0px", fontWeight: "bold"}}>Constants</h4>
-              <div style={{color: "#bdbdbd", fontSize: "0.8em"}}>
+              <div style={{color: "#fff", fontSize: "0.8em"}}>
                 <strong style={{color: "#8fcbd5"}}>Initial Prey:</strong> {Constants.initialN}<br/>
                 <strong style={{color: "#ec9999"}}>Initial Predators:</strong> {Constants.initialP}<br/>
-                <strong style={{color: "#b795b1"}}>Carrying Capacity (K):</strong> {Constants.preyK}
+                <strong style={{color: "#9bc5f6"}}>Carrying Capacity (K):</strong> {Constants.preyK}
               </div>
               <Description>Edit these values in the page URL!</Description>
             </div>
